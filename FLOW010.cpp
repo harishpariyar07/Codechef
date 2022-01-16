@@ -6,8 +6,6 @@ using namespace std;
 
 int main()
 {
-    // your code goes here
-    // no of testcases
     int n;
     cin >> n;
     char c[n];
