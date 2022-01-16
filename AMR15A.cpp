@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-    // your code goes here
     int N;
     cin >> N;
     vector<int> A(N);
