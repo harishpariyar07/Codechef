@@ -1,0 +1,30 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    // your code goes here
+    int t;
+    cin >> t;
+    vector<int> nums;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        nums.push_back(n);
+    }
+
+    for (int i = 0; i < t; i++)
+    {
+        int n = nums[i];
+        int sum = 0;
+        while (n > 0)
+        {
+            sum += n % 10;
+            n /= 10;
+        }
+        cout << sum << endl;
+    }
+    return 0;
+}
