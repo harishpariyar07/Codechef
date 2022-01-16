@@ -1,3 +1,6 @@
+// Sum of Digits
+// You're given an integer N. Write a program to calculate the sum of all the digits of N.
+// https://discuss.codechef.com/problems/FLOW006
 #include <iostream>
 #include <vector>
 using namespace std;
