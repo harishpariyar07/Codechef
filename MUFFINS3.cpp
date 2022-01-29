@@ -20,6 +20,7 @@ int main()
 		// From the above example, it is seen that the max size that results max leftover cupcakes is n/2 + 1
 		cout << (n/2+1) << endl;
     }
+	return 0;
 }
 
 /*
