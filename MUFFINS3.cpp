@@ -11,6 +11,14 @@ int main()
     cin >> T;
     while (T--)
     {
+		int n;
+		cin >> n;
+		// Cupakes -> PackageSize LeftoverCupcakes
+		// 13 -> 7(13/2+1) 6
+		// 25 -> 13(25/2+1) 12
+		// 9 -> 5(9/2+1) 4
+		// From the above example, it is seen that the max size that results max leftover cupcakes is n/2 + 1
+		cout << (n/2+1) << endl;
     }
 }
 
